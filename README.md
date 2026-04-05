@@ -27,6 +27,10 @@ It includes authentication, product listing, cart functionality, and order submi
 3. Run the app:
    flutter run -d edge --web-port 8080
 
+## Demo Video
+Watch the app demo here:
+[Video Demo] https://drive.google.com/file/d/1q-22g4NyL1OHCaJq_NTjq2aFX1OtEMAG/view?usp=sharing
+
 ## Notes
 - Authentication is simulated locally (no backend provided)
 - Order submission is simulated locally
