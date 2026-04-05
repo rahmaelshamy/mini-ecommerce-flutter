@@ -1,16 +1,33 @@
-# mini_ecommerce_app
+# Mini E-Commerce App (Flutter)
 
-A new Flutter project.
+## Overview
+This is a simple e-commerce mobile/web application built using Flutter.  
+It includes authentication, product listing, cart functionality, and order submission.
 
-## Getting Started
+## Features
+- Login & Register screens
+- Local authentication with token storage (SharedPreferences)
+- Product listing fetched from a real mock API (DummyJSON)
+- Display product name, price, and stock status
+- Add/remove items from cart
+- Cart badge showing number of items
+- Order form with validation (phone & address)
+- Order confirmation screen
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dio (API calls)
+- Provider (State Management)
+- SharedPreferences (Local Storage)
 
-A few resources to get you started if this is your first Flutter project:
+## Setup Instructions
+1. Clone the repository
+2. Run:
+   flutter pub get
+3. Run the app:
+   flutter run -d edge --web-port 8080
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+- Authentication is simulated locally (no backend provided)
+- Order submission is simulated locally
+- Products are fetched from DummyJSON API
